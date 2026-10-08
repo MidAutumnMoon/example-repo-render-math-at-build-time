@@ -1,0 +1,14 @@
+{
+    "$schema": "./node_modules/oxfmt/configuration_schema.json",
+    "printWidth": 80,
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
+    "ignorePatterns": [
+        "dist/**",
+        "dist-prerender/**",
+        "node_modules/**",
+        "pnpm-lock.yaml",
+        "**/*.md"
+    ]
+}

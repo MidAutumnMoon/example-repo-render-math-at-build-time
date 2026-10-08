@@ -1,0 +1,15 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    margin: 2rem auto;
+    max-width: 40rem;
+    padding: 0 1rem;
+}
+
+.post h1 {
+    font-size: 1.6rem;
+}

@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "lib": ["ES2022", "DOM", "DOM.Iterable"],
+
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+
+        "strict": true,
+        "isolatedModules": true,
+        "verbatimModuleSyntax": true,
+        "moduleDetection": "force",
+        "noEmit": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src",
+        "math-plugin.ts",
+        "math-plugin.test.ts",
+        "vite.config.ts",
+        "vite.prerender.config.ts",
+        "vitest.config.ts"
+    ]
+}
